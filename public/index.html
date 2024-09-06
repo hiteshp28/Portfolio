@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo-container">
+            <img src="./Images/NavLogo2.jpg" class="logo" />
+            <div class="logo-text">itesh Pawar</div>
+          </div>
+          <div class="navitems">
+            <div><a href="#project1">Projects</a></div>
+            <div><a href="#skills">Skills</a></div>
+            <div><a href="#contactme">Contact Me</a></div>
+          </div>
+        </div>
+        <div class="hero">
+          <div class="faded-text">Hitesh</div>
+          <div class="hero-left">
+            <div class="hero-heading">Hii! Hitesh Pawar</div>
+            <div class="hero-heading hero-sub">
+              I am a <span class="role"></span>
+            </div>
+            <div class="hero-dis">
+              I'm a Software Developer and here is My Portfolio website. Here
+              you'll learn about my journey as a software developer.
+            </div>
+
+            <div class="btn-pink" id="btn" onclick="sendEmail()">Hire Me</div>
+          </div>
+
+          <div class="hero-right">
+            <div class="absolute icons icon-dots">
+              <img src="./Images/dots.png" />
+            </div>
+            <div class="absolute icons icon-cube">
+              <img src="./Images/cube.png" />
+            </div>
+            <div class="absolute icons icon-circle">
+              <img src="./Images/circle.png" />
+            </div>
+            <div class="absolute icons icon-zigzag">
+              <img src="./Images/zigzags.png" />
+            </div>
+            <div class="absolute icons icon-plus">
+              <img src="./Images/plus.png" />
+            </div>
+            <div class="user-image">
+              <img src="./Images/UserImage_21.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-sec">
+        <h2 class="page-header">Projects</h2>
+
+        <div class="project-container">
+          <div class="project-card" id="project1">
+            <div class="project-num project-num-right">01</div>
+
+            <div class="project-content project-content-left">
+              <div class="project-skills-container">
+                <img class="projectSkill" src="./Images/HTML.png" alt="" />
+                <img class="projectSkill" src="./Images/CSS.png" alt="" />
+                <img
+                  class="projectSkill"
+                  src="./Images/Javascript.svg"
+                  alt=""
+                />
+                <img class="projectSkill" src="./Images/React.png" alt="" />
+                <img class="projectSkill" src="./Images/Express.png" alt="" />
+                <img class="projectSkill" src="./Images/NodeJs.svg" alt="" />
+                <img class="projectSkill" src="./Images/MongoDB.svg" alt="" />
+              </div>
+
+              <div class="project-heading">Delishify</div>
+
+              <div class="project-subheading">
+                Our food delivery app allows multiple customers to order from
+                various hotels, with a single admin monitoring all activities.
+              </div>
+
+              <div class="btn-group">
+                <a
+                  href="https://github.com/hiteshp28/Delishify/blob/main/README.md"
+                  ><button class="btn-pink">Read More</button></a
+                >
+                <a href="https://github.com/hiteshp28/Delishify">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <!-- <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" id="project2">
+            <div class="project-num project-num-left">02</div>
+
+            <div class="project-content project-content-right">
+              <div class="project-skills-container">
+                <img class="projectSkill" src="./Images/HTML.png" alt="" />
+                <img class="projectSkill" src="./Images/CSS.png" alt="" />
+                <img
+                  class="projectSkill"
+                  src="./Images/Javascript.svg"
+                  alt=""
+                />
+                <img class="projectSkill" src="./Images/React.png" alt="" />
+                <img class="projectSkill" src="./Images/Express.png" alt="" />
+                <img class="projectSkill" src="./Images/NodeJs.svg" alt="" />
+                <img class="projectSkill" src="./Images/MongoDB.svg" alt="" />
+              </div>
+
+              <div class="project-heading">Growup</div>
+
+              <div class="project-subheading">
+                GrowUp is a virtual trading platform designed to provide users
+                <br />
+                an interactive experience in simulated stock trading.
+              </div>
+
+              <div class="btn-group">
+                <a
+                  href="https://github.com/hiteshp28/Growup-web/blob/main/README.md"
+                  ><button class="btn-pink">Read More</button></a
+                >
+                <a href="https://github.com/hiteshp28/Growup-web">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <!-- <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" id="project3">
+            <div class="project-num project-num-right">03</div>
+
+            <div class="project-content project-content-left">
+              <div class="project-skills-container">
+                <img class="projectSkill" src="./Images/HTML.png" alt="" />
+                <img class="projectSkill" src="./Images/CSS.png" alt="" />
+                <img
+                  class="projectSkill"
+                  src="./Images/Javascript.svg"
+                  alt=""
+                />
+              </div>
+
+              <div class="project-heading">Weather Website</div>
+
+              <div class="project-subheading">
+                Designed and developed a dynamic weather website to showcase
+                real-time weather information for the user's current location.
+                Integrated Weather API to enable users to search and retrieve
+                weather details for specific cities
+              </div>
+
+              <div class="btn-group">
+                <!-- <a href="https://github.com/hiteshp28/Weather-website/blob/main/README.md"><button class="btn-pink">Read More</button></a> -->
+                <a href="https://github.com/hiteshp28/Weather-website">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="https://hiteshp28.github.io/Weather-website/">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skills" class="container skills-container">
+        <div class="skill-fade-test">Skills</div>
+        <div class="skill-container-left">
+          <h2 class="skillHeading">
+            <span class="caps">M</span>e and <br />MyTech Stack
+          </h2>
+          <div class="skillSubHeading">
+            <p>
+              I'm Hitesh Pawar, a passionate 3rd-year BE IT undergraduate with a
+              keen interest in mastering web development and exploring the
+              intricacies of data structures. I am eager to apply AI concepts in
+              innovative tech solutions and am committed to continuous learning
+              and growth in the ever-evolving field of technology. I have
+              completed two MERN full-stack projects, showcasing my skills in
+              developing robust web applications. With a solid foundation in
+              blockchain technology and competitive programming, I strive to
+              excel and make meaningful contributions in the tech industry.
+            </p>
+          </div>
+        </div>
+
+        <div class="skill-container-right">
+          <img src="./Images/blob vector.png" class="blobStyle" alt="" />
+          <img
+            src="https://cdn.worldvectorlogo.com/logos/c.svg"
+            alt=""
+            class="skillsLogo"
+          />
+          <img src="./Images/HTML.png" alt="" class="skillsLogo" />
+          <img src="./Images/CSS.png" alt="" class="skillsLogo" />
+          <img src="./Images/Javascript.svg" alt="" class="skillsLogo" />
+          <img src="./Images/React.png" alt="" class="skillsLogo" />
+          <img src="./Images/NodeJs.svg" alt="" class="skillsLogo" />
+          <img src="./Images/Next.svg" alt="" class="skillsLogo" />
+          <img src="./Images/Tailwind.png" alt="" class="skillsLogo" />
+          <img src="./Images/Bootstrap.svg" alt="" class="skillsLogo" />
+          <img src="./Images/Express.png" alt="" class="skillsLogo" />
+          <img src="./Images/Git.svg" alt="" class="skillsLogo" />
+          <img src="./Images/Github.svg" alt="" class="skillsLogo" />
+          <img src="./Images/MongoDB.svg" alt="" class="skillsLogo" />
+          <img
+            src="https://www.svgrepo.com/show/354099/mysql.svg"
+            alt=""
+            class="skillsLogo"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/ba/BitcoinSign.svg"
+            alt=""
+            class="skillsLogo"
+          />
+        </div>
+      </div>
+
+      <div class="contactus-form-container" id="contactme">
+        <div class="container">
+            <h1 class="contactus-heading">Contact Me</h1>
+            <h3 class="contactus-subheading">
+                Questions, thoughts, or just want to say hello?
+            </h3>
+    
+            <div class="contact-info">
+              <p>Email: <a href="mailto:hiteshpawar2804@gmail.com">hiteshpawar2804@gmail.com</a></p>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/hiteshpawar2804" target="_blank">hiteshpawar2804</a></p>
+              <p>GitHub: <a href="https://github.com/hiteshp28" target="_blank">hiteshp28</a></p>
+              <p>Phone: +91-9209315157</p>
+            </div>
+        </div>
+      </div>
+    
+
+      <footer>
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer-faded-text">Hitesh Pawar</div>
+            <div class="link-wrapper">
+              <div><a href="#projects">Project</a></div>
+              <div><a href="#skills">Skills</a></div>
+              <div><a href="#contactme">Contact me</a></div>
+            </div>
+
+            <div class="icon-wrapper">
+              <i class="fa-brands fa-linkedin icon"></i>
+              <i class="fa-brands fa-github icon"></i>
+              <i class="fa-brands fa-twitter icon"></i>
+              <i class="fa-brands fa-instagram icon"></i>
+              <i class="fa-brands fa-envelope icon"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function sendEmail() {
+        window.location.href = "mailto:hiteshpawar2804@gmail.com";
+      }
+      var typeData = new Typed(".role", {
+        strings: ["Problem Solver", "Competitive Programmer", "Web Developer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
+</html>
